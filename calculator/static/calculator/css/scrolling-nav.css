@@ -32,6 +32,10 @@ html, body {
     color: white;
 }
 
+.directions {
+    font-size: 20px;
+}
+
 .btn {
     position: relative;
     margin: 0 auto;
@@ -51,10 +55,12 @@ html, body {
 }
 #start-button {
     background-color: #d3b426;
+    /*display: none;*/
 }
 
 #chance-button {
-    background-color: #1b3d6d;
+    background-color: #d3b426;
+    color: #1b3d6d;
 }
 
 #again-button {
@@ -69,20 +75,15 @@ html, body {
 }
 
 #form-page a {
-    color: aliceblue;
+    color: #1b3d6d;
     font-size: 25px;
 }
 
 .form-horizontal {
-    font-size: 15px;
-    /*border: 5px solid;*/
-    color: #1b3d6d;
-    /*border-radius: 5px;*/
+    font-size:5px;
+    color: white;
 }
-#select-list {
-    width: 100px; !important;
-    text-overflow: ellipsis;
-}
+
 
 
 #table-page {

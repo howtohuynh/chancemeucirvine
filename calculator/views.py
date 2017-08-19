@@ -20,4 +20,10 @@ class index(CreateView):
         if form.is_valid():
             form_data = form.cleaned_data
             form.save()
-        return render(request, self.template_name, {'form': form})
+
+        form_data = form.cleaned_data
+        args = {'form': form, 'form_data': form_data, 'apple': apple}
+        return render(request, self.template_name, args)
+
+def apple():
+    return

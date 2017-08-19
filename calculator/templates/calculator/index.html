@@ -24,8 +24,26 @@
         <div class="container text-center">
             <h1>University of California, Irvine</h1>
             <p style="color:aliceblue">Admissions Calculator</p>
-            <p style="color:aliceblue" class="lead">A visual analysis of your chances of being accepted to the <a href="https://www.usnews.com/best-colleges/uc-irvine-1314" id="us-news-link" style="font-size: 20px; text-decoration: underline; color: aliceblue"> #9 public university </a>in the nation.</p>
-            <a href="#form-page" class="nav-link btn btn-info" role="button" id="start-button">Let's zot.</a>
+            <p style="color:aliceblue" class="lead">A visual analysis of your chances of being accepted to the <a href="https://www.usnews.com/best-colleges/uc-irvine-1314" id="us-news-link" style="font-size: 20px; text-decoration: underline; color: aliceblue"> <br>#9 public university </a>in the nation in three easy steps.</p>
+            <p class="directions"> 1) Fill out the form below and click "Calculate"</p>
+            <form class = "form-horizontal" action = "" method = "post" enctype = "multipart/form-data" id="applicant-form">
+                {% csrf_token %}
+                {% for field in form %}
+                    <div class = "form-group-xs">
+                        <span class = "text-danger small"> {{ field.errors }}</span>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <label class="control-label col-md-2 text-right">{{ field.label_tag }}</label>
+                            <div class="col-md-4 text-left" id="select-list">
+                                {{ field }}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                <button href="#table-page"  type = "submit" class = "nav-link btn btn-info btn-success" id="chance-button"> Calculate </button><br><br>
+            </form>
+            <p class="directions"> 2) Click "View Analysis" below to see your own personal analysis</p>
+            <a href="#form-page" class="nav-link btn btn-info" role="button" id="start-button">View Analysis</a>
         </div>
     </section>
 
@@ -33,41 +51,20 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    Enter Your Statistics
+                    Analysis
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-5 mx-auto">
                     <div class = "container-fluid" id="applicant-form">
-                              <div class="panel panel-default">
-                                    <div class = "panel-body">
-                                        <form class = "form-horizontal" action = "" method = "post" enctype = "multipart/form-data">
-                                            {% csrf_token %}
-                                            {% for field in form %}
-                                                <div class = "form-group-md">
-                                                    <span class = "text-danger small"> {{ field.errors }}</span>
+                          <div class="panel panel-default">
+                                <div class = "panel-body">
 
-                                                    <div class="row">
-                                                        <label class="control-label col-md-4 text-left">{{ field.label_tag }}</label>
-                                                        <div class="col-md-8 text-left" id="select-list">
-                                                            {{ field }}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            {% endfor %}
-                                            <div class = "form-group">
-{#                                                <div class = "col-sm-offset-6 col-sm-6">#}
-                                                    <button href="#table-page" type = "submit" class = "nav-link btn btn-info btn-success" id="chance-button"> Chance Me! </button>
-{#                                                </div>#}
-                                            </div>
-                                        </form>
-                                    </div>
-                              </div>
+                                </div>
+                          </div>
                     </div>
                 </div>
             </div>
-
-                    <a href="#table-page" class="nav-link btn btn-info" role="button" id="chance-button">Chance me!</a>
                 </div>
             </div>
         </div>
@@ -77,6 +74,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     Table
+                    {{ form_data }}
                     <a href="#form-page" class="nav-link btn btn-info" role="button" id="again-button">Again?</a>
                 </div>
             </div>
@@ -100,6 +98,8 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="../../static/calculator/js/scrolling-nav.js"></script>
+
+
 
 </body>
 
