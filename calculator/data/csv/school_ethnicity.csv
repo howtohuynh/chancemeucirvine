@@ -1,0 +1,99 @@
+school,ethnicity,applied,admitted,enrolled,selectivity_rate,yield_rate,gpa,verbal,math,writing
+Arts,American Indian / Alaskan Native,15,1,0,6.70%,0.00%,N/A,N/A,N/A,N/A
+Arts,Asian / Pacific Islander,564,205,38,36.30%,18.50%,3.8,588,621,583
+Arts,"Black,  non-Hispanic",144,29,6,20.10%,20.70%,3.64,590,558,590
+Arts,Hispanic,576,136,32,23.60%,23.50%,3.77,591,546,550
+Arts,"White,  non-Hispanic",494,189,38,38.30%,20.10%,3.95,621,592,605
+Arts,Unknown / declined to state,62,22,3,35.50%,13.60%,N/A,N/A,N/A,N/A
+Arts,International student,261,99,10,37.90%,10.10%,3.64,543,739,566
+Biological Sciences,American Indian / Alaskan Native,32,14,2,43.80%,14.30%,N/A,N/A,N/A,N/A
+Biological Sciences,Asian / Pacific Islander,"4,029","2,344",496,58.20%,21.20%,4.04,604,630,602
+Biological Sciences,"Black,  non-Hispanic",492,187,40,38.00%,21.40%,3.89,583,567,567
+Biological Sciences,Hispanic,"2,788","1,090",288,39.10%,26.40%,3.96,549,547,537
+Biological Sciences,"White,  non-Hispanic","1,641",880,157,53.60%,17.80%,4.03,612,611,595
+Biological Sciences,Unknown / declined to state,285,168,25,58.90%,14.90%,4.03,621,638,620
+Biological Sciences,International student,694,417,79,60.10%,18.90%,3.81,507,715,563
+Business,American Indian / Alaskan Native,24,6,1,25.00%,16.70%,N/A,N/A,N/A,N/A
+Business,Asian / Pacific Islander,"2,348",525,92,22.40%,17.50%,4.15,596,656,611
+Business,"Black,  non-Hispanic",326,35,3,10.70%,8.60%,N/A,583,567,567
+Business,Hispanic,"1,585",198,35,12.50%,17.70%,4.14,534,561,548
+Business,"White,  non-Hispanic","1,065",217,18,20.40%,8.30%,4.19,588,629,591
+Business,Unknown / declined to state,177,52,4,29.40%,7.70%,N/A,N/A,N/A,N/A
+Business,International student,"1,362",223,21,16.40%,9.40%,4.06,547,723,577
+Education,American Indian / Alaskan Native,1,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
+Education,Asian / Pacific Islander,256,81,26,31.60%,32.10%,3.97,587,633,597
+Education,"Black,  non-Hispanic",37,8,2,21.60%,25.00%,N/A,N/A,N/A,N/A
+Education,Hispanic,421,115,34,27.30%,29.60%,3.91,519,523,506
+Education,"White,  non-Hispanic",128,42,6,32.80%,14.30%,4,620,558,637
+Education,Unknown / declined to state,16,5,0,31.30%,0.00%,N/A,N/A,N/A,N/A
+Education,International student,129,61,12,47.30%,19.70%,3.84,490,637,557
+Engineering,American Indian / Alaskan Native,26,10,2,38.50%,20.00%,N/A,N/A,N/A,N/A
+Engineering,Asian / Pacific Islander,"3,723","1,874",396,50.30%,21.10%,4.04,629,688,622
+Engineering,"Black,  non-Hispanic",336,81,17,24.10%,21.00%,3.97,561,611,549
+Engineering,Hispanic,"2,639",735,230,27.90%,31.30%,4.09,575,611,554
+Engineering,"White,  non-Hispanic","1,774",871,140,49.10%,16.10%,4.06,650,685,618
+Engineering,Unknown / declined to state,283,143,22,50.50%,15.40%,4.08,689,730,658
+Engineering,International student,"1,590",712,100,44.80%,14.00%,3.89,521,734,577
+Humanities,American Indian / Alaskan Native,23,5,0,21.70%,0.00%,N/A,N/A,N/A,N/A
+Humanities,Asian / Pacific Islander,"1,099",388,52,35.30%,13.40%,4.01,617,618,614
+Humanities,"Black,  non-Hispanic",227,50,7,22.00%,14.00%,4.08,566,524,569
+Humanities,Hispanic,"1,255",337,59,26.90%,17.50%,3.95,571,525,553
+Humanities,"White,  non-Hispanic",710,267,32,37.60%,12.00%,4.02,663,600,636
+Humanities,Unknown / declined to state,104,34,2,32.70%,5.90%,N/A,N/A,N/A,N/A
+Humanities,International student,657,324,48,49.30%,14.80%,3.83,499,682,568
+Info and Computer Sci,American Indian / Alaskan Native,16,4,0,25.00%,0.00%,N/A,N/A,N/A,N/A
+Info and Computer Sci,Asian / Pacific Islander,"2,373","1,027",300,43.30%,29.20%,4.09,644,692,628
+Info and Computer Sci,"Black,  non-Hispanic",168,40,14,23.80%,35.00%,3.92,603,586,575
+Info and Computer Sci,Hispanic,745,217,96,29.10%,44.20%,4.04,591,599,560
+Info and Computer Sci,"White,  non-Hispanic",749,252,69,33.60%,27.40%,4.11,660,677,634
+Info and Computer Sci,Unknown / declined to state,184,88,20,47.80%,22.70%,4.14,641,689,634
+Info and Computer Sci,International student,818,320,54,39.10%,16.90%,3.96,574,729,615
+Nursing Science,American Indian / Alaskan Native,6,1,1,16.70%,100.00%,N/A,N/A,N/A,N/A
+Nursing Science,Asian / Pacific Islander,669,44,15,6.60%,34.10%,4.25,632,695,645
+Nursing Science,"Black,  non-Hispanic",128,0,0,0.00%,0.00%,3.92,N/A,N/A,N/A
+Nursing Science,Hispanic,923,21,10,2.30%,47.60%,4.15,640,607,621
+Nursing Science,"White,  non-Hispanic",174,12,2,6.90%,16.70%,N/A,N/A,N/A,N/A
+Nursing Science,Unknown / declined to state,42,3,0,7.10%,0.00%,N/A,N/A,N/A,N/A
+Nursing Science,International student,30,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
+Pharmaceutical Sciences,American Indian / Alaskan Native,2,1,0,50.00%,0.00%,N/A,N/A,N/A,N/A
+Pharmaceutical Sciences,Asian / Pacific Islander,756,394,119,52.10%,30.20%,4.04,585,625,578
+Pharmaceutical Sciences,"Black,  non-Hispanic",54,0,4,31.50%,23.50%,N/A,N/A,N/A,N/A
+Pharmaceutical Sciences,Hispanic,223,75,26,33.60%,34.70%,3.94,554,554,558
+Pharmaceutical Sciences,"White,  non-Hispanic",108,47,10,43.50%,21.30%,3.96,531,565,525
+Pharmaceutical Sciences,Unknown / declined to state,19,9,4,47.40%,44.40%,N/A,N/A,N/A,N/A
+Pharmaceutical Sciences,International student,89,52,9,58.40%,17.30%,3.87,470,726,548
+Physical Sciences,American Indian / Alaskan Native,24,10,2,41.70%,20.00%,N/A,N/A,N/A,N/A
+Physical Sciences,Asian / Pacific Islander,"1,783",931,122,52.50%,13.10%,4,595,678,602
+Physical Sciences,"Black,  non-Hispanic",215,64,8,29.80%,12.50%,3.76,541,541,530
+Physical Sciences,Hispanic,"1,537",556,112,36.20%,20.10%,3.96,543,582,528
+Physical Sciences,"White,  non-Hispanic",930,476,51,51.20%,10.70%,4.01,599,645,602
+Physical Sciences,Unknown / declined to state,140,71,8,50.70%,11.30%,3.97,619,689,594
+Physical Sciences,International student,"2,221","1,407",377,63.30%,26.80%,3.86,497,730,568
+Public Health,American Indian / Alaskan Native,11,4,0,36.40%,0.00%,N/A,N/A,N/A,N/A
+Public Health,Asian / Pacific Islander,725,342,91,47.20%,26.60%,4,586,615,596
+Public Health,"Black,  non-Hispanic",101,29,12,28.70%,41.40%,3.89,531,528,503
+Public Health,Hispanic,554,148,45,26.70%,30.40%,3.94,516,508,512
+Public Health,"White,  non-Hispanic",194,91,19,46.90%,20.90%,4.05,569,593,589
+Public Health,Unknown / declined to state,28,14,3,50.00%,21.40%,N/A,N/A,N/A,N/A
+Public Health,International student,99,61,12,61.60%,19.70%,3.92,559,684,527
+Social Ecology,American Indian / Alaskan Native,20,5,0,25.00%,0.00%,N/A,N/A,N/A,N/A
+Social Ecology,Asian / Pacific Islander,633,211,70,33.30%,33.20%,3.97,587,604,596
+Social Ecology,"Black,  non-Hispanic",186,35,14,18.80%,40.00%,3.7,544,502,535
+Social Ecology,Hispanic,"1,628",358,147,22.00%,41.10%,3.97,547,526,533
+Social Ecology,"White,  non-Hispanic",377,141,38,37.40%,27.00%,3.97,629,583,608
+Social Ecology,Unknown / declined to state,55,11,5,20.00%,45.50%,4.05,652,654,652
+Social Ecology,International student,217,113,23,52.10%,20.40%,3.8,514,678,575
+Social Sciences,American Indian / Alaskan Native,46,17,1,37.00%,5.90%,N/A,N/A,N/A,N/A
+Social Sciences,Asian / Pacific Islander,"3,003","1,294",214,43.10%,16.50%,3.97,598,632,599
+Social Sciences,"Black,  non-Hispanic",536,138,21,25.70%,15.20%,3.78,552,532,534
+Social Sciences,Hispanic,"3,059",887,189,29.00%,21.30%,3.89,550,534,538
+Social Sciences,"White,  non-Hispanic","1,423",560,59,39.40%,10.50%,4,605,608,604
+Social Sciences,Unknown / declined to state,239,100,8,41.80%,8.00%,4.05,563,655,605
+Social Sciences,International student,"3,151","1,764",458,56.00%,26.00%,3.86,506,699,567
+Undergrad Education,American Indian / Alaskan Native,42,16,4,38.10%,25.00%,N/A,N/A,N/A,N/A
+Undergrad Education,Asian / Pacific Islander,"2,533","1,316",342,52.00%,26.00%,3.97,591,624,586
+Undergrad Education,"Black,  non-Hispanic",384,146,36,38.00%,24.70%,3.73,529,523,519
+Undergrad Education,Hispanic,"2,934","1,258",366,42.90%,29.10%,3.9,533,538,522
+Undergrad Education,"White,  non-Hispanic","1,442",715,93,49.60%,13.00%,3.93,586,595,576
+Undergrad Education,Unknown / declined to state,241,110,14,45.60%,12.70%,3.65,550,597,515
+Undergrad Education,International student,"3,158","1,765",260,55.90%,14.70%,3.85,501,696,551

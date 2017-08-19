@@ -22,9 +22,9 @@
 <body id="page-top">
     <section id="title-page">
         <div class="container text-center">
-            <h1>University of California, Irvine</h1>
-            <p style="color:aliceblue">Admissions Calculator</p>
-            <p style="color:aliceblue" class="lead">A visual analysis of your chances of being accepted to the <a href="https://www.usnews.com/best-colleges/uc-irvine-1314" id="us-news-link" style="font-size: 20px; text-decoration: underline; color: aliceblue"> <br>#9 public university </a>in the nation in three easy steps.</p>
+            <p id="uci-title">University of California, Irvine</p>
+            <p id="ac-title">Admissions Calculator</p>
+            <p id="description">A visual analysis of your chances of being accepted to the <a href="https://www.usnews.com/best-colleges/uc-irvine-1314" id="us-news-link" style="font-size: 20px; text-decoration: underline; color: aliceblue"> #9 public university </a>in the nation.</p>
             <p class="directions"> 1) Fill out the form below and click "Calculate"</p>
             <form class = "form-horizontal" action = "" method = "post" enctype = "multipart/form-data" id="applicant-form">
                 {% csrf_token %}
@@ -32,7 +32,7 @@
                     <div class = "form-group-xs">
                         <span class = "text-danger small"> {{ field.errors }}</span>
                         <div class="row">
-                            <div class="col-md-2"></div>
+                            <div class="col-md-3"></div>
                             <label class="control-label col-md-2 text-right">{{ field.label_tag }}</label>
                             <div class="col-md-4 text-left" id="select-list">
                                 {{ field }}
@@ -49,10 +49,53 @@
 
     <section id="form-page">
         <div class="container text-center">
+                            Analysis
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    Analysis
-                </div>
+{#                <div class="col-lg-8 mx-auto">#}
+                    <table class="table table-sm table-hover" id="table">
+                        <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Your Stats</th>
+                            <th>Applied</th>
+                            <th>Admitted</th>
+                            <th>Enrolled</th>
+                            <th>Selectivity</th>
+                            <th>Yield</th>
+                            <th>GPA</th>
+                            <th>Verbal</th>
+                            <th>Math</th>
+                            <th>Writing</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            {% for field in td %}
+                                <tr>
+                                {% for x in field %}
+                                    {% if x|length == 2 %}
+                                        {% for value in x %}
+                                            <td> {{ value }}</td>
+                                        {% endfor%}
+                                    {% elif x|length == 5 %}
+                                        {% for key, value in x.items %}
+                                            <td> {{ value }}</td>
+                                            {% endfor %}
+                                        <td> {{ "N/A" }}</td>
+                                        <td> {{ "N/A" }}</td>
+                                        <td> {{ "N/A" }}</td>
+                                        <td> {{ "N/A" }}</td>
+                                    {% else %}
+                                        {% for key, value in x.items %}
+                                            <td> {{ value }}</td>
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                        </table>
+                    <a href="#title-page" class="nav-link btn btn-info" role="button" id="again-button">Again?</a>
+{#                </div>#}
             </div>
             <div class="row">
                 <div class="col-lg-5 mx-auto">
@@ -69,17 +112,16 @@
             </div>
         </div>
     </section>
-    <section id="table-page">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    Table
-                    {{ form_data }}
-                    <a href="#form-page" class="nav-link btn btn-info" role="button" id="again-button">Again?</a>
-                </div>
-            </div>
-        </div>
-    </section>
+{#    <section id="table-page">#}
+{#        <div class="container text-center">#}
+{#            <div class="row">#}
+{#                <div class="col-lg-8 mx-auto">#}
+{#                    Table#}
+{##}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </section>#}
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">

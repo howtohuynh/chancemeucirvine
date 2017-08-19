@@ -23,17 +23,29 @@ html, body {
 
 #title-page a {
     color: #1b3d6d;
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: none;
     position: relative;
 }
+#uci-title {
+    font-size: 25px;
+}
 
+#ac-title {
+    font-size: 20px;
+    color: aliceblue;
+}
+#description {
+    font-size: 15px;
+    color: white;
+}
 #us-news-link a{
     color: white;
+    font-size: 15px;
 }
 
 .directions {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .btn {
@@ -61,6 +73,7 @@ html, body {
 #chance-button {
     background-color: #d3b426;
     color: #1b3d6d;
+    font-size: 15px;
 }
 
 #again-button {
@@ -73,14 +86,21 @@ html, body {
     color: aliceblue;
     font-size: 50px;
 }
+#table {
+    font-size: 10px;
+}
+
+.table td {
+   text-align: left;
+}
 
 #form-page a {
-    color: #1b3d6d;
-    font-size: 25px;
+    color: aliceblue;
+    font-size: 15px;
 }
 
 .form-horizontal {
-    font-size:5px;
+    font-size: 10px;
     color: white;
 }
 
@@ -89,7 +109,7 @@ html, body {
 #table-page {
     height: 100%;
     background-color: aliceblue;
-        font-size: 50px;
+        font-size: 10px;
 }
 
 #table-page a {

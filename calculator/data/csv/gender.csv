@@ -1,0 +1,4 @@
+gender,applied,admitted,enrolled,selectivity_rate,yield_rate,gpa,verbal,math,writing
+Female,"41,039","17,322","3,479",42.20%,20.10%,3.98,565,610,574
+Male,"34,865","13,452","3,060",38.60%,22.70%,3.95,579,658,581
+Not stated,"1,906",857,13,45.00%,1.50%,4,556,642,545
