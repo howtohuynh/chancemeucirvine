@@ -1,0 +1,1 @@
+web: gunicorn howtohuynh.wsgi --log-file -
