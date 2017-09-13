@@ -25,7 +25,7 @@ SECRET_KEY = 'vwf8tpx$o3wak5u8d)-*4sd_+0(1&b7piy%y6gy^1gh6tgjsgg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thawing-caverns-42164.herokuapp.com']
+ALLOWED_HOSTS = ['ucirvineadmissionscalculator.herokuapp.com']
 
 
 # Application definition
