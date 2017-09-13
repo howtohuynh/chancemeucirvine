@@ -5,11 +5,13 @@
  */
 html, body {
     height: 100%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
 .container {
     height: 100%;
+    width: 100%;
     bottom: 10%;
     position: relative;
 }
@@ -38,10 +40,6 @@ html, body {
 #description {
     font-size: 15px;
     color: white;
-}
-#us-news-link a{
-    color: white;
-    font-size: 15px;
 }
 
 .directions {
@@ -80,14 +78,22 @@ html, body {
     background-color: #1b3d6d;
 }
 
+#highschool {
+    font-size: 25px;
+}
+
+#chance-range {
+    font-size: 30px;
+}
+
 #form-page {
-    height: 100%;
+    height: 150%;
     background-color: #d3b426;
     color: aliceblue;
     font-size: 50px;
 }
 #table {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .table td {
@@ -104,25 +110,78 @@ html, body {
     color: white;
 }
 
+.form-group {
+    width: 400px;
+    margin: 0 auto;
+        /*border-radius: 5px;*/
+    /*border: dashed;*/
+    /*border-color: red;*/
 
-
-#table-page {
-    height: 100%;
-    background-color: aliceblue;
-        font-size: 10px;
 }
 
-#table-page a {
-    font-size: 25px;
-    color:  #d3b426;
+
+
+section {
+    padding: 200px 0;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 400px) {
     header {
         padding: 156px 0 100px;
     }
+
+    #title-page {
+        height: 200%;
+    }
+    #uci-title {
+        font-size: 15px;
+    }
+    .directions {
+        font-size: 15px;
+    }
+    #highschool {
+        font-size: 10px;
+    }
+    #chance-range {
+        font-size: 15px;
+    }
+    #title-page a {
+        font-size: 10px;
+    }
+    #chance-button {
+        font-size: 10px;
+    }
+    #table {
+        font-size: 3px;
+    }
 }
 
-section {
-    padding: 100px 0;
+@media (min-width: 500px) {
+    header {
+        padding: 156px 0 100px;
+    }
+
+    #title-page {
+        height: 200%;
+    }
+
+    #highschool {
+        font-size: 10px;
+    }
+    #chance-range {
+        font-size: 15px;
+    }
+    #title-page a {
+        font-size: 10px;
+    }
+    #chance-button {
+        font-size: 10px;
+    }
+    #table {
+        font-size: 10px;
+    }
+
+
 }
+
+

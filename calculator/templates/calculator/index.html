@@ -22,34 +22,41 @@
 <body id="page-top">
     <section id="title-page">
         <div class="container text-center">
-            <p id="uci-title">University of California, Irvine</p>
-            <p id="ac-title">Admissions Calculator</p>
-            <p id="description">A visual analysis of your chances of being accepted to the <a href="https://www.usnews.com/best-colleges/uc-irvine-1314" id="us-news-link" style="font-size: 20px; text-decoration: underline; color: aliceblue"> #9 public university </a>in the nation.</p>
+            <p id="uci-title">University of California, Irvine - Admissions Calculator</p>
+            <p id="description">A visual analysis of your chances of being accepted to the <a href="https://www.usnews.com/best-colleges/uc-irvine-1314" style="font-size: 15px; text-decoration: underline; color: aliceblue"> #9 public university </a>in the nation.</p>
             <p class="directions"> 1) Fill out the form below and click "Calculate"</p>
             <form class = "form-horizontal" action = "" method = "post" enctype = "multipart/form-data" id="applicant-form">
                 {% csrf_token %}
                 {% for field in form %}
-                    <div class = "form-group-xs">
+                    <div class = "form-group-med">
                         <span class = "text-danger small"> {{ field.errors }}</span>
-                        <div class="row">
-                            <div class="col-md-3"></div>
-                            <label class="control-label col-md-2 text-right">{{ field.label_tag }}</label>
-                            <div class="col-md-4 text-left" id="select-list">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label text-left">
+                                {{ field.label_tag }}
+                            </label>
+                            <div class="col-sm-2 text-left">
                                 {{ field }}
                             </div>
                         </div>
                     </div>
                 {% endfor %}
+                <br>
                 <button href="#table-page"  type = "submit" class = "nav-link btn btn-info btn-success" id="chance-button"> Calculate </button><br><br>
             </form>
-            <p class="directions"> 2) Click "View Analysis" below to see your own personal analysis</p>
-            <a href="#form-page" class="nav-link btn btn-info" role="button" id="start-button">View Analysis</a>
+            <p class="directions"> 2) Click "View" below to see your own personal analysis</p>
+            <a href="#form-page" class="nav-link btn btn-info" role="button" id="start-button">View</a>
         </div>
     </section>
 
     <section id="form-page">
         <div class="container text-center">
                             Analysis
+            <div id="highschool">
+                {{ hs }}
+            </div>
+            <div id="chance-range">
+                {{ cr }}
+            </div>
             <div class="row">
 {#                <div class="col-lg-8 mx-auto">#}
                     <table class="table table-sm table-hover" id="table">
@@ -126,7 +133,8 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Kenny Huynh 2017</p>
+            <p class="m-0 text-center text-white">Copyright &copy; Kenny Huynh 2017<br>www.howtohuynh.com
+                <br> Disclaimer: This is not endorsed by or affiliated with the University of California, Irvine.</p>
         </div> 
     </footer>
 

@@ -40,8 +40,10 @@ class index(CreateView):
             form_data = form.cleaned_data
             form.save()
         td = table_data(form_data)
+        cr = chance_range(td)
+        hs = highSchool(form_data)
         form_data = form.cleaned_data
-        args = {'form': form, 'td': td}
+        args = {'form': form, 'td': td, 'hs': hs, 'cr': cr}
         return render(request, self.template_name, args)
 
 def table_data(d: dict) -> list:
@@ -61,7 +63,14 @@ def table_data(d: dict) -> list:
     td.append((('SAT Writing', d['sat_writing']), sat_writing[d['sat_writing']]))
     return td
 
+def chance_range(l: list) -> str:
+    result = []
+    for element in l:
+        result.append(float(element[1]['selectivity_rate'].strip('%')))
+    return "Your chances of admission range between {}% to {}%.".format(sorted(result)[0], sorted(result)[-1])
+
 def highSchool(d: dict) -> str:
     if d['high_school'] != 'OTHER / NOT LISTED':
-        return "In 2016, {} people from {} enrolled at UC Irvine.".format(high_school[d['high_school']]['admitted'], d['high_school'].title())
-
+        return "Fun Fact: In 2016, {} people from {} enrolled at UC Irvine.".format(high_school[d['high_school']]['admitted'], d['high_school'].title())
+    else:
+        return ""

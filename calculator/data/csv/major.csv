@@ -6,24 +6,24 @@ Arts,Music - Performance,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
 Arts,Music,223,100,18,44.80%,18.00%,3.52,584,608,593
 Arts,Studio Art,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
 Arts,Undeclared,389,94,6,24.20%,6.40%,3.83,548,605,562
-Biological Sciences,Biological Sciences,8864,4700,1043,53.00%,22.20%,4,569,604,573
+Biological Sciences,Biological Sciences,"8,864","4,700","1,043",53.00%,22.20%,4,569,604,573
 Biological Sciences,Biology/Education,720,248,31,34.40%,12.50%,3.95,576,561,556
 Biological Sciences,Ecology and Evolutionary Biology,377,152,13,40.30%,8.60%,3.91,576,575,559
-Business,Business Administration,6887,1256,174,18.20%,13.90%,4.15,570,625,587
+Business,Business Administration,"6,887","1,256",174,18.20%,13.90%,4.15,570,625,587
 Education,Education Sciences,768,270,80,35.20%,29.60%,3.92,547,572,550
 Education,Undeclared,220,42,0,19.10%,0.00%,N/A,N/A,N/A,N/A
 Engineering,Aerospace Engineering,836,298,70,35.60%,23.50%,4.07,576,650,571
-Engineering,Biomedical Engineering,1001,565,113,56.40%,20.00%,4.07,626,666,608
+Engineering,Biomedical Engineering,"1,001",565,113,56.40%,20.00%,4.07,626,666,608
 Engineering,Biomedical Engineering: Premed,544,216,10,39.70%,4.60%,4.18,618,670,628
 Engineering,Chemical Engineering,632,315,39,49.80%,12.40%,4.14,590,659,599
-Engineering,Civil Engineering,1069,398,90,37.20%,22.60%,4.01,580,635,573
-Engineering,Computer Engineering,1423,633,184,44.50%,29.10%,4,588,669,580
+Engineering,Civil Engineering,"1,069",398,90,37.20%,22.60%,4.01,580,635,573
+Engineering,Computer Engineering,"1,423",633,184,44.50%,29.10%,4,588,669,580
 Engineering,Computer Science and Engineering,117,117,103,100.00%,88.00%,3.99,618,667,590
 Engineering,Electrical Engineering,965,503,80,52.10%,15.90%,3.98,567,666,573
 Engineering,Environmental Engineering,334,201,29,60.20%,14.40%,4.05,576,642,563
 Engineering,Materials Science Engineering,245,162,19,66.10%,11.70%,3.98,528,614,530
-Engineering,Mechanical Engineering,2085,686,129,32.90%,18.80%,4.09,591,673,584
-Engineering,Undeclared,1119,332,41,29.70%,12.30%,4.09,582,650,593
+Engineering,Mechanical Engineering,"2,085",686,129,32.90%,18.80%,4.09,591,673,584
+Engineering,Undeclared,"1,119",332,41,29.70%,12.30%,4.09,582,650,593
 Humanities,African-American Studies,42,6,0,14.30%,0%,N/A,N/A,N/A,N/A
 Humanities,Art History,104,38,3,36.50%,7.90%,N/A,N/A,N/A,N/A
 Humanities,Asian American Studies,58,7,0,12.10%,0.00%,N/A,N/A,N/A,N/A
@@ -53,43 +53,43 @@ Humanities,Women's Studies,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
 Info and Computer Sci,Biomedical Computing,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
 Info and Computer Sci,Business Information Management,421,116,20,27.60%,17.20%,4.07,579,643,613
 Info and Computer Sci,Computer Game Science,655,156,54,23.80%,34.60%,4.11,612,676,605
-Info and Computer Sci,Computer Science,3121,1345,332,43.10%,24.70%,4.08,620,672,612
+Info and Computer Sci,Computer Science,"3,121","1,345",332,43.10%,24.70%,4.08,620,672,612
 Info and Computer Sci,Computer Science and Engineering,100,100,97,100.00%,97.00%,4.02,600,685,608
 Info and Computer Sci,Data Science,128,44,5,34.40%,11.40%,4.1,N/A,N/A,N/A
 Info and Computer Sci,Informatics,94,28,8,29.80%,28.60%,4.11,568,655,573
 Info and Computer Sci,Information and Computer Science,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
 Info and Computer Sci,Software Engineering,223,92,27,41.30%,29.30%,4.09,578,696,610
 Info and Computer Sci,Undeclared,311,67,10,21.50%,14.90%,3.98,611,683,632
-Nursing Science,Nursing Science,1972,81,28,4.10%,34.60%,4.21,657,656,653
-Pharmaceutical Sciences,Pharmaceutical Sciences,1251,595,172,47.60%,28.90%,4,564,615,569
+Nursing Science,Nursing Science,"1,972",81,28,4.10%,34.60%,4.21,657,656,653
+Pharmaceutical Sciences,Pharmaceutical Sciences,"1,251",595,172,47.60%,28.90%,4,564,615,569
 Physical Sciences,Applied Physics,5,5,5,100.00%,100.00%,3.93,N/A,N/A,N/A
-Physical Sciences,Chemistry,1867,887,133,47.50%,15.00%,3.99,566,622,566
+Physical Sciences,Chemistry,"1,867",887,133,47.50%,15.00%,3.99,566,622,566
 Physical Sciences,Earth and Environmental Sciences,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
 Physical Sciences,Earth and Environmental Studies,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
 Physical Sciences,Earth System Science,258,100,12,38.80%,12.00%,4,566,563,554
 Physical Sciences,Environmental Science,410,175,21,42.70%,12.00%,3.97,598,624,595
-Physical Sciences,Mathematics,2181,1322,369,60.60%,27.90%,3.89,505,704,563
-Physical Sciences,Physics,1005,499,68,49.70%,13.60%,3.9,551,709,585
-Physical Sciences,Undeclared,1124,527,72,46.90%,13.70%,3.87,549,642,563
+Physical Sciences,Mathematics,"2,181","1,322",369,60.60%,27.90%,3.89,505,704,563
+Physical Sciences,Physics,"1,005",499,68,49.70%,13.60%,3.9,551,709,585
+Physical Sciences,Undeclared,"1,124",527,72,46.90%,13.70%,3.87,549,642,563
 Public Health,Public Health Policy,212,77,10,36.30%,13.00%,3.93,549,561,545
-Public Health,Public Health Sciences,1500,612,172,40.80%,28.10%,3.98,561,577,571
-Social Ecology,"Criminology, Law and Society",1659,347,129,20.90%,37.20%,3.95,544,543,542
-Social Ecology,Psychology and Social Behavior,1193,426,152,35.70%,35.70%,3.95,549,575,560
+Public Health,Public Health Sciences,"1,500",612,172,40.80%,28.10%,3.98,561,577,571
+Social Ecology,"Criminology, Law and Society","1,659",347,129,20.90%,37.20%,3.95,544,543,542
+Social Ecology,Psychology and Social Behavior,"1,193",426,152,35.70%,35.70%,3.95,549,575,560
 Social Ecology,Social Ecology,72,27,5,37.50%,18.50%,4.05,519,529,507
 Social Ecology,Undeclared,84,28,5,33.30%,17.90%,3.9,N/A,N/A,N/A
 Social Ecology,Urban Studies,108,46,6,42.60%,13.00%,3.73,N/A,N/A,N/A
 Social Sciences,Anthropology,293,100,12,34.10%,12.00%,3.98,601,573,581
-Social Sciences,Business Economics,1483,905,407,61.00%,45.00%,3.88,525,667,558
+Social Sciences,Business Economics,"1,483",905,407,61.00%,45.00%,3.88,525,667,558
 Social Sciences,Chicano/Latino Studies,93,22,0,23.70%,0.00%,N/A,N/A,N/A,N/A
 Social Sciences,Cognitive Sciences,436,241,39,55.30%,16.20%,3.98,590,595,598
-Social Sciences,Economics,1538,802,127,52.10%,15.80%,3.92,519,671,563
+Social Sciences,Economics,"1,538",802,127,52.10%,15.80%,3.92,519,671,563
 Social Sciences,International Studies,647,294,42,45.40%,14.30%,3.88,563,587,563
 Social Sciences,Linguistics,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
-Social Sciences,Political Science,1448,574,89,39.60%,15.50%,3.92,590,570,576
-Social Sciences,Psychology ,2754,857,133,31.10%,15.50%,3.9,561,607,575
+Social Sciences,Political Science,"1,448",574,89,39.60%,15.50%,3.92,590,570,576
+Social Sciences,Psychology ,"2,754",857,133,31.10%,15.50%,3.9,561,607,575
 Social Sciences,Quantitative Economics,102,70,26,68.60%,37.10%,3.9,512,668,551
 Social Sciences,Social Policy and Public Service,250,88,12,35.20%,13.60%,4,549,541,556
 Social Sciences,Social Science,0,0,0,0.00%,0.00%,N/A,N/A,N/A,N/A
-Social Sciences,Sociology,1151,339,45,29.50%,13.30%,3.9,547,571,551
-Social Sciences,Undeclared,1262,468,18,37.10%,3.80%,3.9,520,670,574
-Undergrad Education,Undeclared,10734,5326,1115,49.60%,20.90%,3.9,541,605,548
+Social Sciences,Sociology,"1,151",339,45,29.50%,13.30%,3.9,547,571,551
+Social Sciences,Undeclared,"1,262",468,18,37.10%,3.80%,3.9,520,670,574
+Undergrad Education,Undeclared,"10,734","5,326","1,115",49.60%,20.90%,3.9,541,605,548
