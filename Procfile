@@ -1,1 +1,1 @@
-web: gunicorn howtohuynh.wsgi --log-file -
+web: gunicorn chancemeucirvine.wsgi --log-file -
