@@ -17,7 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    # url(r'^$', RedirectView.as_view(url='/chancemeuci/')),
-    url(r'^/', include('calculator.urls')),
+    url(r'^$', RedirectView.as_view(url='/calculator/')),
+    url(r'^calculator/', include('calculator.urls')),
     url(r'^admin/', admin.site.urls),
 ]
